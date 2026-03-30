@@ -14,3 +14,4 @@ if [User_FirstName, User_LastName] in Names_Buckets:
           {User_FirstName.title()} {User_LastName.title()}''')
 else:
     print(f"Sorry, {User_FirstName.title()} {User_LastName.title()}, you are not authorized to access this course.")
+    print
